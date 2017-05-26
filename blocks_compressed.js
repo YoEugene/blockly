@@ -3,7 +3,7 @@
 
 
 // Copyright 2012 Google Inc.  Apache License 2.0
-Blockly.Blocks.lists={};Blockly.Constants={};Blockly.Constants.Lists={};Blockly.Constants.Lists.HUE=260;Blockly.Blocks.lists.HUE=Blockly.Constants.Lists.HUE;
+Blockly.Blocks.lists={};Blockly.Constants={};Blockly.Hahaha={};Blockly.Constants.Lists={};Blockly.Constants.Lists.HUE=260;Blockly.Blocks.lists.HUE=Blockly.Constants.Lists.HUE;
 Blockly.defineBlocksWithJsonArray([{type:"lists_create_empty",message0:"%{BKY_LISTS_CREATE_EMPTY_TITLE}",output:"Array",colour:"%{BKY_LISTS_HUE}",tooltip:"%{BKY_LISTS_CREATE_EMPTY_TOOLTIP}",helpUrl:"%{BKY_LISTS_CREATE_EMPTY_HELPURL}"},{type:"lists_repeat",message0:"%{BKY_LISTS_REPEAT_TITLE}",args0:[{type:"input_value",name:"ITEM"},{type:"input_value",name:"NUM",check:"Number"}],output:"Array",colour:"%{BKY_LISTS_HUE}",tooltip:"%{BKY_LISTS_REPEAT_TOOLTIP}",helpUrl:"%{BKY_LISTS_REPEAT_HELPURL}"},{type:"lists_reverse",
 message0:"%{BKY_LISTS_REVERSE_MESSAGE0}",args0:[{type:"input_value",name:"LIST",check:"Array"}],output:"Array",inputsInline:!0,colour:"%{BKY_LISTS_HUE}",tooltip:"%{BKY_LISTS_REVERSE_TOOLTIP}",helpUrl:"%{BKY_LISTS_REVERSE_HELPURL}"},{type:"lists_isEmpty",message0:"%{BKY_LISTS_ISEMPTY_TITLE}",args0:[{type:"input_value",name:"VALUE",check:["String","Array"]}],output:"Boolean",colour:"%{BKY_LISTS_HUE}",tooltip:"%{BKY_LISTS_ISEMPTY_TOOLTIP}",helpUrl:"%{BKY_LISTS_ISEMPTY_HELPURL}"},{type:"lists_length",
 message0:"%{BKY_LISTS_LENGTH_TITLE}",args0:[{type:"input_value",name:"VALUE",check:["String","Array"]}],output:"Number",colour:"%{BKY_LISTS_HUE}",tooltip:"%{BKY_LISTS_LENGTH_TOOLTIP}",helpUrl:"%{BKY_LISTS_LENGTH_HELPURL}"}]);
